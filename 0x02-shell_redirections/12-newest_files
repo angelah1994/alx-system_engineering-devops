@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -t b2* | head -11
+find /path -printf '%T+ %p\n' | sort -r | head -11
